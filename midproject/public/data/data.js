@@ -1,0 +1,616 @@
+var data =[
+    {
+        title:"공대",
+        content:"1호관",
+        lat:35.88754296357136, 
+        lng:128.60853116716004,
+        img:"images/b1.jpg"
+    },
+    {
+        title:"공대",
+        content:"2호관",
+        lat:35.88799293369684,  
+        lng:128.60853116716004,
+        img:"images/b2.jpg"
+    },
+    {
+        title:"공대",
+        content:"3호관",
+        lat:35.8877127639191, 
+        lng:128.60965245511204 ,
+        img:"images/b2.jpg"
+    },
+    {
+        title:"공대",
+        content:"4호관",
+        lat:35.8876703138663, 
+        lng:128.61063751181754,
+    },
+    {
+        title:"공대",
+        content:"6호관",
+        lat:35.88731373252438, 
+        lng:128.6096210171321, 
+        img:""
+    },
+    {
+        title:"공대",
+        content:"7호관",
+        lat:35.88728643727618, 
+        lng:128.61067688829883,
+        img:""
+    },
+    {
+        title:"공대",
+        content:"8호관",
+        lat:35.8866824676273, 
+        lng:128.61164118057067,
+        img:""
+    },
+    {
+        title:"공대",
+        content:"9호관",
+        lat:35.886889228833276,   
+        lng:128.60848924985342,
+        img:""
+    },
+    {
+        title:"공대",
+        rest:1,
+        content:"12호관<br><a href='https://coop.knu.ac.kr/sub03/sub01_01.html?shop_sqno=86r/'target='_blank'>공식당</a>",
+        lat:35.88845860644684, 
+        lng:128.60996311836496,
+        img:"/images/ball.png"
+    },
+    {
+        title:"기숙사",
+        content:"진리관",
+        lat:35.886872144106334, 
+        lng:128.60935224997644,
+        img:"/images/domcafe.jpg"
+    },
+    {
+        title:"기숙사",
+        content:"봉사관",
+        lat:35.88686180722606, 
+        lng:128.609945534562,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"긍지관",
+        lat:35.8865000155661,
+        lng:128.60962018495053 ,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"문화관",
+        lat:35.885988335967994, 
+        lng:128.60948621746346,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"성실관",
+        lat:35.88582294387571, 
+        lng:128.60851016862915,
+        img:"/images/ss.jpg"
+    },
+    {
+        title:"기숙사",
+        content:"화목관",
+        lat:35.886876163721006, 
+        lng:128.61068937647437,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"협동관",
+        lat:35.88652166297867, 
+        lng:128.6106983983142,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"향토생활관",
+        lat:35.89065492554739, 
+        lng:128.6152788133683,
+        img:""
+    },
+    {
+        title:"기숙사",
+        content:"첨성관",
+        lat:35.8914067652718,
+        lng: 128.6149301261965,
+        img:"" 
+    },
+    {
+        title:"기숙사",
+        content:"누리관",
+        lat:35.893505794422026, 
+        lng: 128.61359975051715,
+        img:""
+    },
+    {
+        title:"면학관",
+        content:" ",
+        lat:35.88634623933782, 
+        lng:128.61140661273876,
+        img:""
+    },
+    {
+        title:"창업보육센터",
+        content:" ",
+        lat:35.88636451264891, 
+        lng:128.6124305915587,
+        img:""
+    },
+    {
+        title:"It대학",
+        content:"2호관",
+        lat:35.8875081010666, 
+        lng:128.61164701339825,
+        img:""
+    },
+    {
+        title:"It대학",
+        content:"3호관",
+        lat:35.88816958262026, 
+        lng:128.61048770697587,
+        img:"" 
+    },
+    {
+        title:"It대학",
+        content:"4호관",
+        lat:35.888136691402835, 
+        lng:128.61088917884976,
+        img:""
+    },
+    {
+        title:"It대학",
+        content:"융복합관",
+        lat:35.888129382241544, 
+        lng:128.61135831452265,
+        img:""
+    },
+    {
+        title:"It대학",
+        content:"1호관",
+        lat:35.887464245740574, 
+        lng:128.6127476778575,
+        img:""
+    },
+    {
+        title:"학군단",
+        content:" ",
+        lat:35.887127481263036, 
+        lng:128.60490326285338,
+        img:""
+    },
+    {
+        title:"생물학환",
+        content:" ",
+        lat:35.886853999165126, 
+        lng:128.60609835751112,
+        img:""
+    },
+    {
+        title:"공동실험실습관",
+        content:" ",
+        lat:35.88674317293745, 
+        lng:128.6072919405216,
+        img:""
+    },
+    {
+        title:"화학관",
+        content:" ",
+        lat:35.88652803922397, 
+        lng:128.60840773947382,
+        img:""
+    },
+    {
+        title:"환경과학연구소",
+        content:" ",
+        lat:35.88725384152422, 
+        lng:128.60783911116198,
+        img:""
+    },
+    {
+        title:"수의과대학",
+        content:" ",
+        lat:35.886770179118315, 
+        lng:128.6132380462137,
+        img:""
+    },
+    {
+        title:"동물병원",
+        content:" ",
+        lat:35.886653230438725, 
+        lng:128.61367109452712,
+        img:""
+    },
+    {
+        title:"법과대학",
+        content:" ",
+        lat:35.88806025781502, 
+        lng:128.61488002105793,
+        img:""
+    },
+    {
+        title:"법학전문대학원",
+        content:" ",
+        lat:35.88771672616843, 
+        lng:128.61560176824148,
+        img:""
+    },
+    {
+        title:"사회과학대학",
+        content:" ",
+        lat:35.8884220607991, 
+        lng:128.61568747572016,
+        img:"" 
+    },
+    {
+        title:"복지관",
+        rest:1,
+        content:"<a href='https://www.knu.ac.kr/wbbs/wbbs/contents/index.action?menu_url=campus/service02_05&menu_idx=147'target='_blank'>복지관</a><br><a href='https://coop.knu.ac.kr/sub03/sub01_01.html?shop_sqno=37/'target='_blank'>카페테리아 첨성 메뉴</a>",
+        lat:35.88899217124592, 
+        lng:128.6144605054988,
+        img:"/images/bok.jpg"
+    },
+    {
+        title:"박물괸",
+        content:" ",
+        lat:35.888698761934336, 
+        lng:128.61365253690695,
+        img:""
+    },
+    {
+        title:"경상대학",
+        content:" ",
+        lat:35.88912032497769, 
+        lng:128.6157714820327,
+        img:""
+    },
+    {
+        title:"국제경상관",
+        content:" ",
+        lat:35.88935935456818, 
+        lng:128.61595387224736,
+        img:""
+    },
+    {
+        title:"생활과학대학",
+        content:" ",
+        lat:35.88988956308433,
+        lng: 128.6159216857389,
+        img:""
+    },
+    {
+        title:"4합동강의동",
+        content:" ",
+        lat:35.88954623174541, 
+        lng:128.6149078107222,
+        img:""
+    },
+    {
+        title:"우당교육관",
+        content:" ",
+        lat:35.89016335789521, 
+        lng:128.6151492095357,
+        img:""
+    },
+    {
+        title:"교육대학원",
+        content:" ",
+        lat:35.889859141387674, 
+        lng:128.61380274061608,
+        img:""
+    },
+    {
+        title:"사범대학",
+        content:" ",
+        lat:35.890219855126766,
+        lng: 128.6137812829438
+        ,img:""
+    },
+    {
+        title:"본관",
+        content:" ",
+        lat:35.890398038430284, 
+        lng: 128.61200029616296,
+        img:""
+    },
+    {
+        title:"인문한국진흥관",
+        content:" ",
+        lat:35.890206817324064, 
+        lng:128.61069674257007,
+        img:""
+    },
+    {
+        title:"생명공학관",
+        content:" ",
+        lat:35.889793951990725, 
+        lng:128.60907668832147,
+        img:""
+    },
+    {
+        title:"1과학관",
+        content:" ",
+        lat:35.88985914139155, 
+        lng:128.60782677893602,
+        img:""
+    },
+    {
+        title:"2과학관",
+        content:" ",
+        lat:35.88980698987162, 
+        lng:128.60642130139965,
+        img:""
+    },
+    {
+        title:"1체육관",
+        content:" ",
+        lat:35.889224628892464, 
+        lng:128.6046778655424,
+        img:""
+    },
+    {
+        title:"2체육관",
+        content:" ",
+        lat:35.88983306562928, 
+        lng:128.60523040060443,
+        img:""
+    },
+    {
+        title:"백호관",
+        content:" ",
+        lat:35.888298926889604,
+        lng:128.60427553418657,
+        img:""
+    },
+    {
+        title:"국민체육센터",
+        content:" ",
+        lat:35.89021985513333, 
+        lng:128.60585803751164,
+        img:""
+    },
+    {
+        title:"자연과학대학",
+        content:" ",
+        lat:35.89026766044785, 
+        lng:128.60661978487263,
+        img:""
+    },
+    {
+        title:"복현회관",
+        rest:1,
+        content:"<a href='https://coop.knu.ac.kr/sub03/sub01_01.html?shop_sqno=79'target='_blank'>복현 카페테리아 메뉴</a><br>",
+        lat:35.890697906962025, 
+        lng:128.60709185365747,
+        img:"/images/bcafeteria.jpg"
+    },
+    {
+        title:"농대1호관",
+        content:" ",
+        lat:35.890894886821876, 
+        lng:128.60905071596247,
+        img:""
+    },
+    {
+        title:"농대2호관",
+        content:" ",
+        lat:35.890997774367236, 
+        lng:128.60827202562427,
+        img:""
+    },
+    {
+        title:"농대3호관",
+        content:" ",
+        lat:35.89144974626811, 
+        lng:128.6086046195451,
+        img:""
+    },
+    {
+        title:"인문대학",
+        content:" ",
+        lat:35.89115857237573, 
+        lng:128.61070747140894,
+        img:""
+    },
+    {
+        title:"글로벌프라자",
+        rest:1,
+        content:"<a href='https://globalplaza.knu.ac.kr/gp/sub.php?top=1&sub=4&sub2=2&sub3=0&sub4=0'target='_blank'>글로벌프라자</a>",
+        lat:35.891797415222754, 
+        lng:128.61123854879864,
+        img:""
+    },
+    {
+        title:"중앙도서관구관",
+        content:"<a href='https://kudos.knu.ac.kr/pages/index.htm'target='_blank'>도서관</a>",
+        lat:35.891697460559485, 
+        lng:128.61204321150652,
+        img:""
+    },
+    {
+        title:"중앙도서관신관",
+        content:"<a href='https://kudos.knu.ac.kr/pages/index.htm'target='_blank'>도서관</a>",
+        lat:35.89191812709805, 
+        lng:128.6125602116692,
+        img:""
+    },
+    {
+        title:"대강당",
+        content:" ",
+        lat:35.89274480534481, 
+        lng:128.61070747140465,
+        img:""
+    },
+    {
+        title:"예술대학",
+        content:" ",
+        lat:35.89353139127631, 
+        lng:128.611184904606,
+        img:""
+    },
+    {
+        title:"약학대학",
+        content:" ",
+        lat:35.892631814461204, 
+        lng:128.61239189866953,
+        img:"" 
+    },
+    {
+        title:"조형관",
+        content:" ",
+        lat:35.89322718769595, 
+        lng:128.61239726308762,
+        img:"" 
+    },
+    {
+        title:"종합정보센터",
+        rest:1,
+        content:"<a href='https://coop.knu.ac.kr/sub03/sub01_01.html?shop_sqno=35'target='_blank'>정보센터식당 메뉴</a>",
+        lat:35.892284149176874, 
+        lng:128.61327702763754,
+        img:"/images/inforest.jpg"
+    },
+    {
+        title:"정보전산원",
+        content:" ",
+        lat:35.89141063344111,
+        lng:128.61363644364874,
+        img:""
+    },
+    {
+        title:"테크노파크",
+        content:" ",
+        lat:35.89254055246372, 
+        lng:128.61385102037187,
+        img:""
+    },
+    {
+        title:"모바일테크노빌딩",
+        content:" ",
+        lat:35.891981822742146, 
+        lng:128.61415301107183,
+        img:"" 
+    },
+    {
+        title:"어학교육원",
+        content:" ",
+        lat:35.890933063611456, 
+        lng:128.6145331592555,
+        img:"" 
+    },
+    {
+        title:"길",
+        content:"쪽문",
+        lat:35.88565872580325,
+        lng: 128.60952217351317,
+        img:"/images/side2.jpg"
+    },
+    {
+        title:"길",
+        content:"기숙사문",
+        lat:35.88594744616873, 
+        lng:128.60993266722693,
+        img:"/images/side1.jpg"
+    },
+    {
+        title:"길",
+        content:"조은문",
+        lat:35.886448135953735, 
+        lng:128.60720807159885,
+        img:"/images/good.jpg" 
+    },
+    {
+        title:"길",
+        content:"솔로문",
+        lat:35.88660092683562, 
+        lng:128.605535689379,
+        img:"/images/solo.jpg" 
+    },
+    {
+        title:"길",
+        content:"서문",
+        lat:35.888421766996025,  
+        lng:128.6039235724245,
+        img:"/images/west.jpg"
+    },
+    {
+        title:"길",
+        content:"북문",
+        lat:35.89232068169072, 
+        lng:128.60937658717225,
+        img:"/images/north.jpg"
+    },
+    {
+        title:"길",
+        content:"농장문",
+        lat:35.895013193799855, 
+        lng:128.61224565544816,
+        img:"/images/farm.jpg"
+    },
+    {
+        title:"길",
+        content:"테크노문",
+        lat:35.892554611913916, 
+        lng:128.61480990712892,
+        img:"/images/tech.jpg"
+    },
+    {
+        title:"길",
+        content:"정문",
+        lat:35.88517596280055, 
+        lng:128.61423935867353,
+        img:"/images/center.jpg"  
+    },
+    {
+        title:"길",
+        content:"복현회관뒷문",
+        lat:35.89081014496498, 
+        lng:128.60636695374322,
+        img:"/images/back.jpg"  
+    },
+    {
+        title:"길",
+        content:"수영장문",
+        lat:35.89033861271643, 
+        lng:128.60544963827226,
+        img:"/images/swimming.jpg"  
+    },
+    {
+        title:"길",
+        content:"수의대문",
+        lat:35.88608234471318, 
+        lng:128.61299351040475,
+        img:"/images/sd.png"
+    },
+    {
+        title:"길",
+        content:"동문",
+        lat:35.888528341101626, 
+        lng:128.61633137187172,
+        img:"/images/east.jpg"
+    },
+    {
+        title:"길",
+        content:"생과대문",
+        lat:35.889542460385904, 
+        lng:128.61595205023175,
+        img:"/images/sqd.png"
+    },
+    {
+        title:"도서관 휴게실",
+        rest:1,
+        content:"식당:경대리아<br>대현 매점",
+        lat:35.89144459574277, 
+        lng:128.61271704532714, 
+        img:""
+    },
+];
