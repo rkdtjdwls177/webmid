@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>KNUmap</title>
+    <link rel="stylesheet" href="/stylesheets/style.css"></link>
+    <script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=vm7h6uk881"></script>
+</head>
+
+<body>
+    <div id="banner">KNU MAP</div>
+    <div id="box">
+        <p><b>날짜</b></p>
+        <p id="time1"></p>
+        <p id="time2"></p>
+    </div>
+    <div id="map"></div>
+    <div id="current">현재위치</div>
+    
+
+    <script>
+        var mapOptions = {
+            center: new naver.maps.LatLng(37.3595704, 127.105399),
+            zoom: 10
+        };
+        var map = new naver.maps.Map('map', mapOptions);
+        
+        function timer()
+        {
+        var today=new Date();
+        document.getElementById("time1").innerHTML=today.toLocaleDateString(); 
+        document.getElementById("time2").innerHTML=today.toLocaleTimeString();
+        setTimeout('timer()',1000);
+        }
+        timer();
+        // $("#current").click(() => {
+        //     alert("클릭")});
+    </script>
+</body>
+
+</html>
+                            icon:
+                            {
+                                content : <img class="pulse" draggable="false"
+                                 unselectable="on" src="circle.png"></img>
+                            },
+                            anchor: new naver.maps.Point(11,11)
